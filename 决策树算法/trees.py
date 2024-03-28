@@ -90,7 +90,6 @@ def select_labels(data_list):
     return sorted_class_count[0][0]  # 返回出现最多的标签
 
 
-
 data_set = [[1, 1, 'yes'], [1, 1, 'yes'], [1, 0, 'no'], [0, 1, 'no'], [0, 1, 'no'], [1, 1, 'maybe']]
 labels = ['no surfacing', 'flippers']
 # print(choose_best_feature_to_split(data_set))
